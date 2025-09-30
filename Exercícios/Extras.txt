@@ -1,0 +1,33 @@
+Sistema de Análise de Empréstimo Bancário
+Crie um sistema de análise de crédito que considere múltiplos fatores:
+Variáveis de entrada:
+Renda mensal
+Valor do empréstimo solicitado
+Prazo em meses (12, 24, 36, 48, 60)
+Idade do solicitante
+Score Serasa (0-1000)
+Regras de aprovação:
+Eliminatórias (reprova imediatamente):
+Score < 300
+Idade < 18 ou > 70
+Parcela > 40% da renda
+Análise por pontos (precisa de 2 ou mais critérios positivos):
+Score ≥ 800: +1 ponto
+Renda ≥ 3× a parcela: +1 ponto
+Prazo ≤ 24 meses: +1 ponto
+Idade entre 25-55 anos: +1 ponto
+Valor ≤ 10× a renda mensal: +1 ponto
+Saída: Aprovado, Reprovado ou "Análise humana necessária" (caso tenha exatamente 1 ponto)
+
+
+Sistema de Pontuação em Competição
+Desenvolva um programa para calcular a pontuação final de um atleta em uma competição com as seguintes regras:
+São 3 juízes que dão notas de 0 a 10
+Descarta-se a maior e a menor nota, usando a nota do meio
+Bônus de dificuldade:
+Se todas as notas forem ≥ 8.5: +2.0 pontos
+Se a nota do meio for ≥ 9.0: +1.5 pontos
+Se a menor nota for ≤ 5.0: -1.0 ponto
+Penalidade por inconsistência:
+Se a diferença entre maior e menor nota for > 3.0: -0.5 pontos
+A pontuação final não pode ser menor que 0 nem maior que 10
