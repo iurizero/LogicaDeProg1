@@ -30,4 +30,4 @@ Se a nota do meio for ≥ 9.0: +1.5 pontos
 Se a menor nota for ≤ 5.0: -1.0 ponto
 Penalidade por inconsistência:
 Se a diferença entre maior e menor nota for > 3.0: -0.5 pontos
-A pontuação final não pode ser menor que 0 nem maior que 10
+A pontuação final não pode ser menor que 0 nem maior que 10b
